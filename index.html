@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="unias.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CHATBOT | Universitas Nias</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1 id="typing-title" class="typing"></h1>
+        <h2 id="sub-title">Teknologi Informasi</h2>
+        <marquee class="marquee-text" behavior="scroll" direction="left">
+            Chatbot Unias adalah chatbot interaktif yang dirancang untuk membantu pengguna dengan menyediakan informasi penting tentang Universitas Nias serta panduan pendaftaran.
+        </marquee>
+    </div>
+    <div class="logo">
+        <img src="3dgifmaker74990.gif" alt="Logo GIF">
+        <img src="Gambar_WhatsApp_2024-07-11_pukul_20.02.01_36b90c92-removebg-preview.png" alt="Logo GIF">
+    </div>
+
+    <div class="parent">
+        <div class="desc">
+            <button id="init"><i class="fa fa-comment"></i></button>
+        </div>
+    </div>
+    <div id="test" style="position: fixed; top: 4rem; right: 8rem; display: none;">
+        <div class="child" id="chatbot">
+            <div class="header">
+                <div class="h-child">
+                    <img src="./chatbot-icon.png" alt="avatar" id="avatar">
+                    <div>
+                        <span class="name">Chatbot Unias</span>
+                        <br>
+                        <span style="color:lawngreen">online</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                 </div>
+                <div class="button-group">
+                    <button class="backBtn">&#9664;</button>
+                    <button class="exitBtn" onclick="closeChat()"> <i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <div id="chat-box"></div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
