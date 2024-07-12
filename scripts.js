@@ -146,7 +146,7 @@ var data = {
     beasiswa: {
         title: ["FASILITAS BEASISWA:<br><br>a. Beasiswa KIP Kuliah<br>b. Beasiswa UKT<br>c. Beasiswa dari Pemerintah Kab/Kota se-Kepulauan Nias<br>d. Beasiswa Yayasan Perguruan Tinggi Nias<br>e. Beasiswa Donatur Universitas Nias."],
         url: {}
-    }
+    },
     kontak: {
         title: ["INFORMASI KONTAK:"],
         options: ['Email : admin@unias.ac.id', 'Telepon : (0639) 2620815'],
@@ -154,6 +154,7 @@ var data = {
             link: ["mailto:admin@unias.ac.id", "tel:(0639) 2620815", "https://repo.unias.ac.id/"]
         }
     }
+
 }
 document.querySelector(".backBtn").addEventListener("click", function() {
     handleBack();
