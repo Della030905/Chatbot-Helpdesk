@@ -153,7 +153,7 @@ var data = {
         url: {
             link: ["mailto:admin@unias.ac.id", "tel:(0639) 2620815", "https://repo.unias.ac.id/"]
         }
-    },
+    }
 }
 document.querySelector(".backBtn").addEventListener("click", function() {
     handleBack();
