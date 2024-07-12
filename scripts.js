@@ -5,7 +5,7 @@ var data = {
     },
     informasiproditi: {
         title: ["Pilih kategori informasi:"],
-        options: ['Website', 'Alamat', 'Fakultas', 'Fasilitas', 'Sosmed', 'Dosen TI'],
+        options: ['Website', 'Alamat', 'Fakultas', 'Fasilitas', 'Kontak', 'Sosmed', 'Dosen TI'],
         url: {}
     },
     website: {
@@ -45,6 +45,13 @@ var data = {
         options: ['E-Learning', 'SIMAT', 'Repository', 'OJS', 'Library'],
         url: {
             link: ["https://elearning.unias.ac.id/", "https://simat.unias.ac.id/", "https://repo.unias.ac.id/", "https://ojs.unias.ac.id/", "https://library.unias.ac.id/"]
+        }
+    },
+    kontak: {
+        title: ["INFORMASI KONTAK:"],
+        options: ['Email : admin@unias.ac.id', 'Telepon : (0639) 2620815'],
+        url: {
+            link: ["mailto:admin@unias.ac.id", "tel:(0639) 2620815", "https://repo.unias.ac.id/"]
         }
     },
     sosmed: {
@@ -129,7 +136,7 @@ var data = {
     },
     pendaftaran: {
         title: ["Informasi Pendaftaran"],
-        options: ['Info Pendaftaran', 'Syarat Pendaftaran', 'Beasiswa', 'Kontak'],
+        options: ['Info Pendaftaran', 'Syarat Pendaftaran', 'Beasiswa'],
         url: {}
     },
     infopendaftaran: {
@@ -146,15 +153,7 @@ var data = {
     beasiswa: {
         title: ["FASILITAS BEASISWA:<br><br>a. Beasiswa KIP Kuliah<br>b. Beasiswa UKT<br>c. Beasiswa dari Pemerintah Kab/Kota se-Kepulauan Nias<br>d. Beasiswa Yayasan Perguruan Tinggi Nias<br>e. Beasiswa Donatur Universitas Nias."],
         url: {}
-    },
-    kontak: {
-        title: ["INFORMASI KONTAK:"],
-        options: ['Email : admin@unias.ac.id', 'Telepon : (0639) 2620815'],
-        url: {
-            link: ["mailto:admin@unias.ac.id", "tel:(0639) 2620815", "https://repo.unias.ac.id/"]
-        }
     }
-
 }
 document.querySelector(".backBtn").addEventListener("click", function() {
     handleBack();
