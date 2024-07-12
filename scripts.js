@@ -129,10 +129,10 @@ var data = {
     },
     pendaftaran: {
         title: ["Informasi Pendaftaran"],
-        options: ['Info Pendaftaran', 'Syarat Pendaftaran', 'Beasiswa', 'Kontak'],
+        options: ['Gelombang Pendaftaran', 'Syarat Pendaftaran', 'Beasiswa', 'Kontak'],
         url: {}
     },
-    infopendaftaran: {
+    gelombangpendaftaran: {
         title: ["INFORMASI PENDAFTARAN:"],
         options: ['Gelombang 1 : 01 Maret s/d 31 Maret 2024', 'Gelombang 2 : 01 April s/d 30 April 2024', 'Gelombang 3 : 01 Mei s/d 31 Mei 2024', 'Gelombang 4 : 01 Juni s/d 31 Juli 2024', 'Gelombang 5 : 01 Agustus s/d 10 Agustus 2024'],
         url: {
