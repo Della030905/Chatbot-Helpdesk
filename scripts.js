@@ -1,27 +1,7 @@
 var data = {
     chatinit: {
         title: ["Halo! <span class='emoji'> &#128075;</span>", "Saya Chatbot Unias", "Bagaimana saya dapat membantumu?"],
-        options: ["Informasi Umum", "Pendaftaran"]
-    },
-    informasiumum: {
-        title: ["Pilih kategori informasi:"],
-        options: ['Website', 'Alamat', 'Fakultas', 'Fasilitas', 'Sosmed', 'Dosen TI'],
-        url: {}
-    },
-    website: {
-        title: ["Dibawah ini link menuju website kampus Universitas Nias"],
-        options: ['Website Kampus'],
-        url: {
-            more: "index.html",
-            link: ["https://unias.ac.id/"]
-        }
-    },
-    alamat: {
-        title: ["Kantor Rektorat : Jalan Pancasila No. 10 Kota Gunungsitoli, Sumatera Utara Nias 22814 Fakultas FKIP dan FST : Jalan Yos Sudarso No. 118/E-S, Ombolata Ulu, Gunungsitoli, Kota Gunungsitoli, Sumatera Utara 22812"],
-        options: ["Google Maps"],
-        url: {
-            link: ["https://maps.app.goo.gl/fD1Z3fzywUtp5WDF6"]
-        }
+        options: ["Fakultas", "Informasi Prodi TI", "Pendaftaran"]
     },
     fakultas: {
         title: ["Berikut adalah beberapa fakultas di Universitas Nias:"],
@@ -39,6 +19,26 @@ var data = {
     fst: {
         title: ["FAKULTAS SAINS DAN TEKNOLOGI (FST)<br>1. Agroteknologi<br>2. Sumber Daya Akuatik<br>3. Teknologi Informasi<br>"],
         url: {}
+    },
+    informasiproditi: {
+        title: ["Pilih kategori informasi:"],
+        options: ['Website', 'Alamat', 'Fasilitas', 'Sosmed', 'Dosen TI'],
+        url: {}
+    },
+    website: {
+        title: ["Dibawah ini link menuju website kampus Universitas Nias"],
+        options: ['Website Kampus'],
+        url: {
+            more: "index.html",
+            link: ["https://unias.ac.id/"]
+        }
+    },
+    alamat: {
+        title: ["Kantor Rektorat : Jalan Pancasila No. 10 Kota Gunungsitoli, Sumatera Utara Nias 22814 Fakultas FKIP dan FST : Jalan Yos Sudarso No. 118/E-S, Ombolata Ulu, Gunungsitoli, Kota Gunungsitoli, Sumatera Utara 22812"],
+        options: ["Google Maps"],
+        url: {
+            link: ["https://maps.app.goo.gl/fD1Z3fzywUtp5WDF6"]
+        }
     },
     fasilitas: {
         title: ["FASILITAS YANG TERSEDIA:"],
@@ -100,7 +100,7 @@ var data = {
         }
     },
     jurismanwaruwu: {
-        title: ["Kontak Jurisman Waruwu, S.E., M.M"],
+        title: ["Kontak Jurisman Waruwu, S.Kom., M.Kom"],
         options: ['Email', 'Whatsapp'],
         url: {
             link: ["mailto:jurisman.waruwu@unias.ac.id", "https://wa.me/6285261708411"]
@@ -129,10 +129,10 @@ var data = {
     },
     pendaftaran: {
         title: ["Informasi Pendaftaran"],
-        options: ['Gelombang Pendaftaran', 'Syarat Pendaftaran', 'Beasiswa', 'Kontak'],
+        options: ['Info Pendaftaran', 'Syarat Pendaftaran', 'Beasiswa', 'Kontak'],
         url: {}
     },
-    gelombangpendaftaran: {
+    infopendaftaran: {
         title: ["INFORMASI PENDAFTARAN:"],
         options: ['Gelombang 1 : 01 Maret s/d 31 Maret 2024', 'Gelombang 2 : 01 April s/d 30 April 2024', 'Gelombang 3 : 01 Mei s/d 31 Mei 2024', 'Gelombang 4 : 01 Juni s/d 31 Juli 2024', 'Gelombang 5 : 01 Agustus s/d 10 Agustus 2024'],
         url: {
