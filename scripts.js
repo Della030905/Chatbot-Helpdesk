@@ -1,9 +1,9 @@
 var data = {
     chatinit: {
         title: ["Halo! <span class='emoji'> &#128075;</span>", "Saya Chatbot Unias", "Bagaimana saya dapat membantumu?"],
-        options: ["Informasi", "Pendaftaran"]
+        options: ["Informasi Prodi TI", "Pendaftaran"]
     },
-    informasi: {
+    informasiproditi: {
         title: ["Pilih kategori informasi:"],
         options: ['Website', 'Alamat', 'Fakultas', 'Fasilitas', 'Kontak', 'Sosmed', 'Dosen TI'],
         url: {}
